@@ -8,7 +8,7 @@ yarn add babel-core babel-loader babel-preset-env babel-preset-react babel-eslin
 yarn add babel-plugin-transform-object-rest-spread babel-plugin-transform-class-properties --dev
 yarn add html-webpack-plugin --dev
 yarn add mini-css-extract-plugin css-loader file-loader --dev
-yarn add react react-dom
+yarn add react react-dom prop-types
 
 npx install-peerdeps --dev eslint-config-airbnb
 ```
