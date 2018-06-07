@@ -29,4 +29,7 @@ module.exports = {
       chunkFilename: '[id].css',
     }),
   ],
+  resolve: {
+    extensions: ['.js', '.jsx'],
+  },
 }
