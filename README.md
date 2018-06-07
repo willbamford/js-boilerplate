@@ -1,5 +1,24 @@
 # JavaScript boilerplate (Webpack 4, React, Babel, Airbnb ESLint)
 
+## Install
+
+Swap out `APP_NAME` for your project name (you will still need to manually update the `package.json` name after install):
+
+```
+curl -L https://github.com/WebSeed/js-boilerplate/archive/master.zip | tar zx 
+mv js-boilerplate-master APP_NAME && cd APP_NAME
+yarn
+```
+
+Then:
+```
+yarn start
+```
+
+See `package.json` scripts for full list of commands.
+
+## Deps
+
 CLI (requires NPM 5+ for `npx`):
 
 ```
