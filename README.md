@@ -17,7 +17,7 @@ yarn start
 
 See `package.json` scripts for full list of commands.
 
-## Deps
+## Dependencies
 
 CLI (requires NPM 5+ for `npx`):
 
