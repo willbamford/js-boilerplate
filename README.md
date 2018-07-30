@@ -1,4 +1,6 @@
-# JavaScript boilerplate (Webpack 4, React, Babel, Airbnb ESLint)
+# JavaScript boilerplate
+
+**Webpack 4, React, Babel, Airbnb ESLint, Prettier**
 
 ## Install
 
