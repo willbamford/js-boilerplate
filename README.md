@@ -1,18 +1,19 @@
 # JavaScript boilerplate
 
-**Webpack 4, React, Babel, Airbnb ESLint, Prettier**
+**Webpack 4, React, Babel 7, Airbnb ESLint, Prettier**
 
 ## Install
 
 Swap out `APP_NAME` for your project name (you will still need to manually update the `package.json` name after install):
 
 ```
-curl -L https://github.com/WebSeed/js-boilerplate/archive/master.zip | tar zx 
+curl -L https://github.com/WebSeed/js-boilerplate/archive/master.zip | tar zx
 mv js-boilerplate-master APP_NAME && cd APP_NAME
 yarn
 ```
 
 Then:
+
 ```
 yarn start
 ```
