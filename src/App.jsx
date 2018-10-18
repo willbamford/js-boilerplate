@@ -1,12 +1,12 @@
 import React from 'react'
 
-import logo from './logo.svg'
+import image from './image.svg'
 
 const App = () => (
   <div className="app">
-    <h1>Whoop!</h1>
-    <div className="logo">
-      <img src={logo} alt="Logo" />
+    <h1>It is working!</h1>
+    <div className="image">
+      <img src={image} alt="LBA" style={{ width: '240px' }} />
     </div>
   </div>
 )

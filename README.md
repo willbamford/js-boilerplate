@@ -1,6 +1,6 @@
 # JavaScript boilerplate
 
-**Webpack 4, React, Babel 7, Airbnb ESLint, Prettier**
+**Webpack 4, React, Babel 7, Airbnb ESLint, Prettier, Jest, Enzyme**
 
 ## Install
 
@@ -26,11 +26,14 @@ CLI (requires NPM 5+ for `npx`):
 
 ```
 yarn add webpack webpack-cli webpack-dev-server --dev
-yarn add babel-core babel-loader babel-preset-env babel-preset-react babel-eslint --dev
-yarn add babel-plugin-transform-object-rest-spread babel-plugin-transform-class-properties --dev
+yarn add @babel/core @babel/preset-env @babel/preset-react babel-loader babel-eslint --dev
+yarn add @babel/plugin-proposal-object-rest-spread @babel/plugin-proposal-class-properties --dev
 yarn add html-webpack-plugin --dev
 yarn add mini-css-extract-plugin css-loader file-loader --dev
 yarn add react react-dom prop-types
+
+yarn add jest babel-jest babel-core@^7.0.0-bridge.0 --dev
+yarn add enzyme enzyme-adapter-react-16 enzyme-to-json react-test-renderer --dev
 
 npx install-peerdeps --dev eslint-config-airbnb
 ```

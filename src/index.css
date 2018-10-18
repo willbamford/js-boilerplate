@@ -20,6 +20,8 @@ body {
 
 .app {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  padding: 80px;
+  align-items: center;
+  padding: 32px;
 }
