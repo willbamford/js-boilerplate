@@ -1,6 +1,6 @@
 {
   "name": "js-boilerplate",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
@@ -38,6 +38,7 @@
     "@babel/core": "^7.0.0",
     "@babel/plugin-proposal-class-properties": "^7.1.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
     "babel-core": "^7.0.0-bridge.0",
@@ -66,6 +67,7 @@
     "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
+    "@babel/runtime": "^7.1.2",
     "react": "^16.4.0",
     "react-dom": "^16.4.0"
   }

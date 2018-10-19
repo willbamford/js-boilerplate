@@ -35,5 +35,8 @@ yarn add react react-dom prop-types
 yarn add jest babel-jest babel-core@^7.0.0-bridge.0 --dev
 yarn add enzyme enzyme-adapter-react-16 enzyme-to-json react-test-renderer --dev
 
+yarn add @babel/plugin-transform-runtime --dev
+yarn add @babel/runtime
+
 npx install-peerdeps --dev eslint-config-airbnb
 ```

@@ -5,7 +5,7 @@ exports[`App renders matching snapshot 1`] = `
   className="app"
 >
   <h1>
-    Whoop!
+    It is working!
   </h1>
   <div
     className="image"
@@ -13,6 +13,11 @@ exports[`App renders matching snapshot 1`] = `
     <img
       alt="LBA"
       src="file-mock"
+      style={
+        Object {
+          "width": "240px",
+        }
+      }
     />
   </div>
 </div>
