@@ -39,4 +39,5 @@ yarn add @babel/plugin-transform-runtime --dev
 yarn add @babel/runtime
 
 npx install-peerdeps --dev eslint-config-airbnb
+npm install eslint-config-prettier eslint-plugin-prettier prettier --save-dev
 ```
