@@ -1,3 +1,9 @@
+## v1.3.0
+
+- Added support for React Hooks
+- Added React `<Suspense>` + lazy (dynamic import) example and requisite Babel plugin
+- Added `useState` hook example
+
 ## v1.2.0
 
 - Added Jest integration
