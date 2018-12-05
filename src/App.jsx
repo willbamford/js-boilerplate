@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { Suspense, lazy, useState } from 'react'
 
-import image from './image.svg'
+const LazyHello = lazy(() =>
+  import(/* webpackChunkName: "greeting" */ './Hello'),
+)
+const LazyWorld = lazy(() =>
+  import(/* webpackChunkName: "greeting" */ './World'),
+)
 
 const waitFor = time =>
   new Promise(resolve => {
@@ -9,18 +14,26 @@ const waitFor = time =>
     }, time)
   })
 
+// eslint-disable-next-line no-unused-vars
 const wait = async () => {
   const result = await waitFor(1000)
   alert(result)
 }
 
-const App = () => (
-  <div className="app">
-    <h1>It is working!</h1>
-    <div className="image">
-      <img src={image} alt="LBA" style={{ width: '240px' }} />
+const App = () => {
+  const [shouldLoad, load] = useState(false)
+  return (
+    <div className="app">
+      <h1>It is working!</h1>
+      {shouldLoad && (
+        <Suspense fallback="Loading...">
+          <LazyHello />
+          <LazyWorld />
+        </Suspense>
+      )}
+      {!shouldLoad && <button onClick={() => load(true)}>Show</button>}
     </div>
-  </div>
-)
+  )
+}
 
 export default App
